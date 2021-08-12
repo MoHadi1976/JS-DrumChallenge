@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+*{
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: large;
+}
+body{
+    background: url(./Images/Drum-kit.jpg);
+  background-size: contain;
+  height: 90vh;
+}
+.main{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25vh;
+}
+.drum {
+  color: black;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  padding: 10px 10px 10px 10px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.drum:active{
+    box-shadow: 10px 10px black;
+}
