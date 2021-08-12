@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
-*{
-  font-family: 'Open Sans';
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+* {
+  font-family: "Open Sans";
   font-weight: 800;
   font-size: large;
 }
-body{
-    background: url(./Images/Drum-kit.jpg);
+body {
+  background: url(./Images/Drum-kit.jpg);
   background-size: contain;
-  height: 90vh;
+  height: 82vh;
 }
-.main{  
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +26,6 @@ body{
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   position: relative;
 }
-.drum:active{
-    box-shadow: 10px 10px black;
+.drum:active {
+  box-shadow: 10px 10px black;
 }
